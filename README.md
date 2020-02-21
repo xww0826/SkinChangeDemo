@@ -10,3 +10,6 @@ Android 原生主题换肤案例，一个简单的换肤操作.
 使用 SharedPreferences 保存当前的 Style，然后调用 Activity 的 reCreate() 方法，重新创建新的实例.
 
 ## 作者
+- 联系QQ：122265264
+- 邮箱：xuweiwei0826@gmail.com
+- 博客：https://blog.csdn.net/smile_Running
