@@ -1,5 +1,6 @@
 package nd.no.xww.skinchangedemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -14,6 +15,8 @@ public class MainActivity extends BaseSkinActivity implements View.OnClickListen
     private TextView tv_clr_5;
     private TextView tv_clr_6;
     private TextView tv_clr_7;
+
+    private TextView tv_skip_to_real_change;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,12 +40,18 @@ public class MainActivity extends BaseSkinActivity implements View.OnClickListen
         tv_clr_6.setOnClickListener(this);
         tv_clr_7 = (TextView) findViewById(R.id.tv_clr_7);
         tv_clr_7.setOnClickListener(this);
+        tv_skip_to_real_change = (TextView) findViewById(R.id.tv_skip_to_real_change);
+        tv_skip_to_real_change.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         String selThemeColor = "";
         switch (v.getId()) {
+            case R.id.tv_skip_to_real_change:
+                Intent intent = new Intent(this, RealChangeActivity.class);
+                startActivity(intent);
+                break;
             case R.id.tv_clr_1:
                 selThemeColor = "cyan";
                 break;

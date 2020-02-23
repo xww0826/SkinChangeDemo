@@ -1,14 +1,7 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">#FFFFFF</item>
-        <item name="colorPrimaryDark">#FFFFFF</item>
-        <item name="colorAccent">#FFFFFF</item>
-    </style>
+    <!-- **  这种方式只能切换主题颜色，不能对子View以及其它背景图片、样式等进行切换  **-->
 
-    <!-- Activity theme. -->
     <style name="AppTheme_cyan" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -79,10 +72,5 @@
         <item name="android:navigationBarColor">@color/colorPrimary6</item>
         <item name="android:actionMenuTextColor">@color/colorPrimaryDark6</item>
     </style>
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
 
 </resources>

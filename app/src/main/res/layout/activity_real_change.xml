@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_change_skin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@color/text_background"
+        android:gravity="center"
+        android:text="插件换肤 - 黑色皮肤"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/tv_change_skin_red"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/text_background"
+        android:gravity="center"
+        android:text="插件换肤 - 红色皮肤"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/tv_skin_restore"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:background="@color/text_background"
+        android:gravity="center"
+        android:text="恢复皮肤"
+        android:textColor="@color/text_color" />
+
+</RelativeLayout>

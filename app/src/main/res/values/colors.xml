@@ -34,4 +34,10 @@
     <color name="colorBackgroundForecast">#58000000</color>
     <color name="secondaryText">#757575</color>
     <color name="uncheckedColor">#535353</color>
+
+
+    <!-- **  插件换肤  **-->
+
+    <color name="text_background">#cfcfcf</color>
+    <color name="text_color">#353535</color>
 </resources>
