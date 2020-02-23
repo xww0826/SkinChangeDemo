@@ -7,8 +7,8 @@ Android 原生主题换肤案例，一个简单的换肤操作.
 
 ## 主题切换
 
-使用 SharedPreferences 保存当前的 Style，然后调用 Activity 的 reCreate() 方法，重新创建新的实例.
-Tips:此方式，仅仅只能切换当前主题颜色，局限性太大.若真正做到换肤功能，推荐使用插件式换肤.
+使用 SharedPreferences 保存当前的 Style，然后调用 Activity 的 reCreate() 方法，重新创建新的实例.<br>
+Tips：此方式，仅仅只能切换当前主题颜色，局限性太大.若真正做到换肤功能，推荐使用插件式换肤.
 
 ## 插件换肤准备工作
 
